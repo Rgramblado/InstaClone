@@ -1,0 +1,21 @@
+.navbar{
+    padding: 3px 0;
+    position: fixed;
+    bottom: 0;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    div {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+.publication-buttons{
+    button{
+        border: none;
+        background-color: transparent;
+        padding: 5px;
+    }
+}

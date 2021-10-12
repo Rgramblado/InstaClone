@@ -1,0 +1,63 @@
+.publication {
+  width: 100%;
+  border-top: .5px solid #909090;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.publication .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+}
+
+.publication .profile .profile-image {
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.publication .profile .profile-image img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.publication .profile .profile-name {
+  font-weight: 600;
+}
+
+.publication .publication-data {
+  padding: 10px 0;
+  max-width: 100vw;
+}
+
+.publication .publication-data img {
+  width: 100%;
+}
+
+.publication .publication-title, .publication .publication-comments {
+  padding: 5px;
+}
+
+.publication .publication-title .profile-name, .publication .publication-comments .profile-name {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.publication .publication-title .see-more-comments, .publication .publication-comments .see-more-comments {
+  color: #AAA;
+}
+
+.publication .publication-title p, .publication .publication-comments p {
+  margin: 0;
+}
+/*# sourceMappingURL=Publication.css.map */

@@ -1,0 +1,30 @@
+.navbar {
+  padding: 3px 0;
+  position: fixed;
+  bottom: 0;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.navbar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.publication-buttons button {
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+}
+/*# sourceMappingURL=NavBar.css.map */

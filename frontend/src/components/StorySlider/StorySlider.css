@@ -1,0 +1,38 @@
+.story-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  max-width: 100%;
+  overflow-x: scroll;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.story-slider .story-container {
+  width: 80px;
+  margin: 0 5px;
+}
+
+.story-slider .story-container button {
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.story-slider .story-container img {
+  background-color: #EEE;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 2px solid grey;
+}
+
+.story-slider .story-container img.not-seen {
+  border-color: #ffa600;
+}
+/*# sourceMappingURL=StorySlider.css.map */

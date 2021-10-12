@@ -1,0 +1,44 @@
+.publication{
+    width: 100%;
+    border-top: .5px solid #909090;
+    text-align: left;
+    padding: 10px 0;
+    .profile{
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        .profile-image{
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+            }
+        }
+        .profile-name{
+            font-weight: 600;
+        }
+    }
+    .publication-data{
+        padding: 10px 0;
+        max-width: 100vw;
+        img{
+            width: 100%;
+        }
+    }
+    .publication-title, .publication-comments{
+        padding: 5px;  
+        .profile-name{
+            font-weight: 600;
+            margin-right: 5px;
+        }
+        .see-more-comments{
+            color: #AAA;
+        }
+        p{
+            margin: 0;
+        }
+    }
+}
